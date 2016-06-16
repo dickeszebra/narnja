@@ -3,9 +3,9 @@
 #include <opencv2/highgui.hpp>
 
 namespace colors {
-    const cv::Scalar red = cv::Scalar(0, 0, 255);
+    const cv::Scalar red   = cv::Scalar(0, 0, 255);
     const cv::Scalar green = cv::Scalar(0, 255, 0);
-    const cv::Scalar blue = cv::Scalar(255, 0, 0);
+    const cv::Scalar blue  = cv::Scalar(255, 0, 0);
 }
 
 int main(int argc, char** argv) {
